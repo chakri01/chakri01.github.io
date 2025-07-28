@@ -48,7 +48,7 @@ export default function App() {
         </div>
 
         <img
-          src={profilePlaceholder}
+          src="/profile-placeholder.png"
           alt="Profile Placeholder"
           className="w-28 h-28 rounded-full border-4 border-accent shadow-lg mb-4 object-cover"
         />
