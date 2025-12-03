@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect,React } from "react";
 import { SunIcon, MoonIcon, DownloadIcon } from "./icons";
-import profilePlaceholder from "./profile-placeholder.png";
+// removed: import profilePlaceholder from "./profile-placeholder.png";
 import resumePDF from "./Chakradhar_Kacham_Resume.pdf";
 
 const navLinks = [
@@ -48,7 +48,7 @@ export default function App() {
         </div>
 
         <img
-          src={profilePlaceholder}
+          src="/profile-placeholder.png"
           alt="Profile Placeholder"
           className="w-28 h-28 rounded-full border-4 border-accent shadow-lg mb-4 object-cover"
         />
