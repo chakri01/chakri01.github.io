@@ -4,6 +4,9 @@ on:
   push:
     branches: [main, feature-portfolio]
 
+permissions:
+  contents: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
